@@ -3,3 +3,175 @@
 	margin: 0;
 	padding: 0;
 }
+
+/* カラー */
+:root{
+	--baseColor:#daf8f8;
+	--mainColor:#595959;
+	--subColor1:#56A7B0;
+	--subColor2:#B05661;
+	--subColor3:#FFFFFF;
+}
+
+/* フォントカラーの設定 */
+.font-color-black{
+	color: var(--mainColor);
+}
+
+.font-color-green{
+	color: var(--subColor1);
+}
+
+.font-color-red{
+	color: var(--subColor2);
+}
+
+.font-color-white{
+	color: var(--subColor3);
+}
+
+/* フォントのサイズ設定 */
+.txt-xxxlarge {
+	font-size: 90px !important;
+}
+
+.txt-xxlarge {
+	font-size: 36px !important;
+}
+
+.txt-large {
+	font-size: 32px !important;
+}
+
+.txt-xxmedium {
+	font-size: 28px !important;
+}
+
+.txt-xmedium {
+	font-size: 24px !important;
+}
+
+.txt-medium {
+	font-size: 22px !important;
+}
+
+.txt-xsmall {
+	font-size: 20px !important;
+}
+
+.txt-xxsmall {
+	font-size: 18px !important;
+}
+
+/* テキストの配置 */
+.txt-left {
+	text-align: left;
+}
+
+.txt-center {
+	text-align: center;
+}
+
+/* 画像サイズ */
+.img-full {
+	width: 100%;
+}
+
+/* 余白の設定 */
+.layout-bottom-small {
+	margin-bottom: 40px !important;
+}
+
+.layout-bottom-middle {
+	margin-bottom: 80px !important;
+}
+
+.layout-bottom-xmiddle {
+	margin-bottom: 100px !important;
+}
+
+.layout-bottom-xxmiddle {
+	margin-bottom: 115px !important;
+}
+
+.layout-bottom-large {
+	margin-bottom: 130px !important;
+}
+
+.section-title-top {
+	margin-top: 100px !important;
+}
+
+/* 画像のサイズ */
+.img-full {
+	width: 100%;
+}
+
+/* ヘッダーの設定 */
+.header{
+	background-color:var(--baseColor);
+	width:100%;
+	height: 80px;
+	z-index: 3;
+	position: fixed;
+}
+
+.header-content{
+	max-width: 1040px;
+	height: 100%;
+	align-items: center;
+	margin: 0 auto;
+	vertical-align: middle;
+	
+}
+
+.header-category{
+	margin-top: 3%;
+	justify-content: space-around;
+	display: flex;
+	list-style: none;
+	
+}
+a{
+	color: var(--mainColor);
+	text-decoration: none;
+
+}
+
+.content-wrapper {
+	max-width: 1040px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.section {
+	width: 100%;
+	background-color: var(--baseColor);
+	margin: 0;
+}
+
+.section-inAichi{
+	position: relative;
+	background-color: #fff;
+	/* header分の余白 */
+	padding-top: 80px;
+}
+
+.posi-rela {
+	position: relative;
+}
+
+.pozi-abso{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0%;
+	left:0%;
+}
+
+.title-mar{
+	padding-top:18% ;
+}
+
+
+
