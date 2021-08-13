@@ -31,12 +31,15 @@
 }
 
 /* フォントのサイズ設定 */
+.txt-max{
+	font-size: 106px;
+}
 .txt-xxxlarge {
 	font-size: 90px !important;
 }
 
 .txt-xxlarge {
-	font-size: 36px !important;
+	font-size: 39px !important;
 }
 
 .txt-large {
@@ -48,7 +51,7 @@
 }
 
 .txt-xmedium {
-	font-size: 24px !important;
+	font-size: 26px !important;
 }
 
 .txt-medium {
@@ -173,5 +176,53 @@ a{
 	padding-top:18% ;
 }
 
+.sentence-mar{
+	padding-top: 7%;
+}
 
+/* 文字の横の線 */
+.title-border {
+	display: flex;
+	align-items: center;
+	}
+	.title-border:before,
+	.title-border:after {
+	border-top: 1px solid;
+	content: "";
+	flex-grow: 1;
+	}
+	.title-border:before {
+	margin-right: 1rem;
+	}
+	.title-border:after {
+	margin-left: 1rem;
+	}
 
+	.dli-arrow-down {
+		display: inline-block;
+		vertical-align: middle;
+		color: #333;
+		line-height: 1;
+		position: relative;
+		width: 0.1em;
+		height: 1em;
+		background: currentColor;
+	}
+	
+	.dli-arrow-down::before {
+		content: '';
+		width: 0.65em;
+		height: 0.65em;
+		border: 0.1em solid currentColor;
+		border-left: 0;
+		border-bottom: 0;
+		box-sizing: border-box;
+		transform: rotate(135deg);
+		position: absolute;
+		left: -0.275em;
+		bottom: 0;
+		margin: auto;
+	}
+	
+
+	
