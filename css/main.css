@@ -9,7 +9,7 @@
 	--baseColor:#daf8f8;
 	--mainColor:#595959;
 	--subColor1:#56A7B0;
-	--subColor2:#B05661;
+	--subColor2:#fc7f8e;
 	--subColor3:#FFFFFF;
 }
 
@@ -31,6 +31,9 @@
 }
 
 /* フォントのサイズ設定 */
+.txt-max-1{
+	font-size: 8vmax;
+}
 .txt-max{
 	font-size: 106px;
 }
@@ -302,6 +305,10 @@ a{
 	margin-right: 10%;
 }
 
+.footer-mar{
+	margin-top: 1%;
+}
+
 
 
 
@@ -326,12 +333,32 @@ a{
 }
 
 .box{
+	width: 100%;
 	position: relative;
 }
 
 .box p{
-	width: 100%;
 	position: absolute;
 	top: 10%;
 	left: 50%;
+	margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
+
+.dli-chevron-up-1 {
+	position: absolute;
+	top:60%;
+	left: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  color:var(--subColor2);
+  line-height: 1;
+  width: 1em;
+  height: 1em;
+  border: 0.1em solid currentColor;
+  border-left: 0;
+  border-bottom: 0;
+  box-sizing: border-box;
+  transform: translateY(25%) rotate(-45deg);
+}
+
