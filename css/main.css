@@ -42,6 +42,10 @@
 	font-size: 39px !important;
 }
 
+.txt-xlarge{
+	font-size: 35px !important;
+}
+
 .txt-large {
 	font-size: 32px !important;
 }
@@ -103,6 +107,26 @@
 
 .section-title-top {
 	margin-top: 100px !important;
+}
+
+.last-mar{
+	padding-bottom: 8%;
+}
+
+.title-mar{
+	padding-top: 8% ;
+}
+
+.sentence-mar{
+	padding-top: 7%;
+}
+
+.sub-title-mar{
+ padding-top: 8%;
+}
+
+.sentence-mar2{
+padding-top: 3%;
 }
 
 /* 画像のサイズ */
@@ -180,7 +204,7 @@ a{
 	padding-top: 7%;
 }
 
-/* 文字の横の線 */
+/* 文字の横の線(両側) */
 .title-border {
 	display: flex;
 	align-items: center;
@@ -198,7 +222,10 @@ a{
 	margin-left: 1rem;
 	}
 
+
+	/* 下矢印 */
 	.dli-arrow-down {
+		margin-top: 5%;
 		display: inline-block;
 		vertical-align: middle;
 		color: #333;
@@ -225,4 +252,86 @@ a{
 	}
 	
 
+.image-circle{
+	border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    width:  180px;       /* ※縦横を同値に */
+    height: 180px;       /* ※縦横を同値に */
+		margin-top: 5%;
+}
+
+/* 文字の横の線(右だけ) */
+.title-border-light {
+	display: flex;
+	align-items: center;
+	}
+	.title-border-light:after {
+	border-top: 1px solid;
+	content: "";
+	flex-grow: 1;
+	}
+
+	.title-border-light:after {
+	margin-left: 1rem;
+	}
+
+	.title-mar{
+		padding-top: 8% ;
+	}
 	
+	.title-mar-left{
+		margin-left: 5%;
+	}
+
+	.sentence-mar{
+		padding-top: 7%;
+	}
+
+.sub-title-mar{
+  margin-top: 6%;
+}
+
+.sub-title-mar-2{
+  margin-top: 5%;
+}
+
+.sentence-mar2{
+	padding-top: 3%;
+}
+
+.picture-mar{
+	margin-right: 10%;
+}
+
+
+
+
+.dis-fl{
+	display: flex;
+	align-items: center;
+}
+
+.simple-mar{
+	margin: 5%;
+}
+
+
+.footer{
+	background-color: #daf8f8;
+	height: 190px;
+}
+
+.footer-picture{
+	height: 190px;
+	width: 100%;
+}
+
+.box{
+	position: relative;
+}
+
+.box p{
+	width: 100%;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+}
