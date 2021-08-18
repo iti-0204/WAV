@@ -13,6 +13,21 @@
 	--subColor3:#FFFFFF;
 }
 
+.font-title-1{
+	font-family: 'Oswald', sans-serif;
+}
+.font-title-2{
+	font-family:'Noto Serif JP', serif ;
+}
+
+.font-category-title{
+	font-family: 'Noto Serif JP', serif;
+}
+
+.font-category-title-2{
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
 /* フォントカラーの設定 */
 .font-color-black{
 	color: var(--mainColor);
@@ -32,7 +47,11 @@
 
 /* フォントのサイズ設定 */
 .txt-max-1{
-	font-size: 8vmax;
+	font-size: 5vmax;
+}
+
+.txt-max-2{
+	font-size: 3vmax;
 }
 .txt-max{
 	font-size: 106px;
@@ -50,7 +69,7 @@
 }
 
 .txt-large {
-	font-size: 32px !important;
+	font-size: 33px !important;
 }
 
 .txt-xxmedium {
@@ -112,12 +131,24 @@
 	margin-top: 100px !important;
 }
 
+.top-mar{
+	margin-top:250px !important;
+}
+
+.top-mar-2{
+	margin-top: 30px !important;
+}
+
+.mar-left{
+	margin-left: 18%;
+}
+
 .last-mar{
 	padding-bottom: 8%;
 }
 
 .title-mar{
-	padding-top: 8% ;
+	padding-top: 12% ;
 }
 
 .sentence-mar{
@@ -135,6 +166,11 @@ padding-top: 3%;
 /* 画像のサイズ */
 .img-full {
 	width: 100%;
+	min-height: 100vh;
+}
+
+img.img-full {
+	height: 600px;
 }
 
 /* ヘッダーの設定 */
@@ -151,8 +187,7 @@ padding-top: 3%;
 	height: 100%;
 	align-items: center;
 	margin: 0 auto;
-	vertical-align: middle;
-	
+	vertical-align: middle;	
 }
 
 .header-category{
@@ -180,12 +215,19 @@ a{
 	margin: 0;
 }
 
+
+
+
 .section-inAichi{
 	position: relative;
 	background-color: #fff;
 	/* header分の余白 */
 	padding-top: 80px;
 }
+
+
+
+	
 
 .posi-rela {
 	position: relative;
@@ -315,6 +357,13 @@ a{
 .dis-fl{
 	display: flex;
 	align-items: center;
+}
+@media screen and (max-width: 480px) {
+	.dis-none{
+		flex-direction: column;
+	
+	}
+
 }
 
 .simple-mar{
